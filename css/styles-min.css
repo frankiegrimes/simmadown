@@ -1,0 +1,272 @@
+/*
+  Body
+*/
+@font-face {
+  font-family: 'P22UndergroundPro-Heavy';
+  src: url("../assets/fonts/P22UndergroundPro-Heavy.eot") format("eot"), url("../assets/fonts/P22UndergroundPro-Heavy.woff") format("woff"), url("../assets/fonts/P22UndergroundPro-Heavy.ttf") format("truetype"), url("../assets/fonts/P22UndergroundPro-Heavy.svg") format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'P22UndergroundPro-Book';
+  src: url("../assets/fonts/P22UndergroundPro-Book.eot") format("eot"), url("../assets/fonts/P22UndergroundPro-Book.woff") format("woff"), url("../assets/fonts/P22UndergroundPro-Book.ttf") format("truetype"), url("../assets/fonts/P22UndergroundPro-Book.svg") format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  font-family: "P22UndergroundPro-Book"; }
+
+h1 {
+  font-family: "P22UndergroundPro-Heavy";
+  text-align: center;
+  padding-top: 2rem; }
+
+p {
+  font-family: "P22UndergroundPro-Book"; }
+
+/*
+  Fullscreen Video
+   - Foundation 6 styles are embedded in the head of this doc
+   - said Foundation 6 styles are completely unecessary for this to work
+   - internet explorer (and it's lack of 'object-fit') essentially
+     turns this from 6 lines of CSS into the monster below .. typical.
+*/
+.video-container {
+  position: relative;
+  z-index: 0; }
+
+.flex-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0;
+  z-index: -1; }
+  .flex-video video {
+    left: 50%;
+    min-height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    /* 
+      the rules below are a replacement for 'object-fit'
+      which is unavailable in all versions of IE
+      .. the ':not' is to cover devices which arbitrarily
+      update VH on scroll - see the JS
+    */ }
+    @media (max-aspect-ratio: 1280 / 720) {
+      .video-container:not(.fixed-device) .flex-video video {
+        width: calc(100vh*1280/720);
+        height: 100vh; } }
+    @media (min-aspect-ratio: 1280 / 720) {
+      .video-container:not(.fixed-device) .flex-video video {
+        width: 100vw;
+        height: calc(100vw*720/1280); } }
+
+.landing-video {
+  height: auto !important; }
+
+*::-webkit-media-controls-start-playback-button {
+  display: none !important;
+  -webkit-appearance: none; }
+
+/*
+  Dummy Content
+*/
+.dummy-container-class {
+  padding: 0; }
+  .dummy-container-class .flex-video {
+    margin-bottom: 0; }
+  .dummy-container-class .row {
+    margin: 1em auto;
+    padding: 1em; }
+  .dummy-container-class .columns {
+    overflow: hidden; }
+  .dummy-container-class h1, .dummy-container-class h2, .dummy-container-class h3, .dummy-container-class p {
+    font-family: sans-serif;
+    font-weight: 200;
+    text-align: center;
+    padding: 0.5em 1em;
+    margin: 0 -1em; }
+  .dummy-container-class.video-container .row {
+    color: white;
+    background: rgba(0, 0, 0, 0.5); }
+  .dummy-container-class.video-container:last-of-type .row {
+    position: absolute;
+    bottom: 1em; }
+
+.responsive-embed, .flex-video {
+  margin-bottom: -12.5%; }
+
+/*
+  Navigation
+*/
+.top-bar, .top-bar ul {
+  background-color: #000;
+  font-family: "P22UndergroundPro-Heavy";
+  font-size: 1.3rem;
+  padding-right: 1rem;
+  padding-bottom: 0; }
+
+.top-bar a {
+  color: #fff; }
+
+.top-bar a:hover {
+  color: #19f6e8; }
+
+/*
+ Artists
+*/
+.card h4 {
+  text-align: center;
+  font-family: "P22UndergroundPro-Heavy";
+  text-transform: uppercase; }
+
+/*
+ Landing Text
+*/
+.landing-text {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  color: white; }
+
+.landing-text h1 {
+  font-size: 3rem;
+  padding: 2rem;
+  line-height: 3rem; }
+
+@media screen and (min-width: 40.064em) {
+  .landing-text h1 {
+    font-size: 8rem;
+    line-height: 8rem; }
+  .landing-text-box {
+    color: #fff;
+    font-family: 'P22UndergroundPro-Book';
+    font-size: 2rem;
+    padding: 1rem;
+    letter-spacing: 8px;
+    line-height: 25px;
+    position: relative;
+    top: -4rem;
+    text-align: center; } }
+
+.landing-text h2 {
+  font-size: 2.3rem;
+  text-align: center;
+  padding: 0.5rem;
+  border: 1px solid white;
+  font-family: 'P22UndergroundPro-Book'; }
+
+.svg-wrapper {
+  height: 60px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 320px; }
+
+.shape {
+  fill: transparent;
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  stroke: #19f6e8; }
+
+.landing-text-box {
+  color: #fff;
+  font-family: 'P22UndergroundPro-Book';
+  font-size: 1rem;
+  padding: 1rem;
+  letter-spacing: 8px;
+  line-height: 25px;
+  position: relative;
+  top: -4rem;
+  text-align: center; }
+
+@-webkit-keyframes draw {
+  0% {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px; }
+  100% {
+    stroke-dasharray: 760;
+    stroke-dashoffset: 0;
+    stroke-width: 2px; } }
+
+@keyframes draw {
+  0% {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px; }
+  100% {
+    stroke-dasharray: 760;
+    stroke-dashoffset: 0;
+    stroke-width: 2px; } }
+
+.svg-wrapper:hover .shape {
+  -webkit-animation: 0.5s draw linear forwards;
+  animation: 0.5s draw linear forwards; }
+
+.landing-text a {
+  color: white; }
+
+.landing-text h2:hover {
+  background-color: rgba(255, 255, 255, 0.2); }
+
+.main-content {
+  padding: 0rem;
+  padding-bottom: 7rem; }
+
+footer {
+  background-color: #212121; }
+
+footer p {
+  color: white;
+  font-family: 'P22UndergroundPro-Book';
+  padding: 2rem 0rem;
+  text-align: center;
+  font-size: 0.5rem; }
+
+.footer-light {
+  background-color: #474747;
+  padding: 1rem; }
+
+.footer-light .row {
+  padding: 1rem;
+  text-align: center; }
+
+.footer-light img {
+  padding: 1rem; }
+
+footer svg:hover #facebook, footer svg:hover #twitter,
+footer svg:hover #instagram {
+  fill: #111; }
+
+footer a svg #facebook, footer a svg #twitter,
+footer a svg #instagram {
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out; }
+
+svg:hover #logo {
+  fill: #111; }
+
+svg:hover #logo {
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out; }
