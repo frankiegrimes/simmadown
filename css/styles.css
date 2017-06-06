@@ -147,14 +147,20 @@ margin-bottom: -12.5%;
 
 /*
   Navigation
+
+
 */
 
+.top-bar {
+  padding: 1rem;
+}
+
 .top-bar, .top-bar ul {
-  background-color: #000;
+  background-color: #212121;
   font-family: "P22UndergroundPro-Heavy";
   font-size: 1.3rem;
-  padding-right: 1rem;
   padding-bottom: 0;
+  line-height: 1.3rem;
 }
 
 .top-bar a {
@@ -165,6 +171,9 @@ margin-bottom: -12.5%;
   color: #19f6e8;
 }
 
+.top-bar svg {
+  margin-top: 0.2rem;
+}
 
 /*
  Artists
@@ -334,7 +343,7 @@ footer a svg #instagram {
 }
 
 svg:hover #logo {
-  fill: #111;
+  fill: #212121;
 }
 
 svg:hover #logo {
@@ -343,3 +352,4 @@ svg:hover #logo {
   -webkit-transition: 200ms;
   -webkit-transition-timing-function: ease-in-out;
 }
+
