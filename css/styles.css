@@ -156,7 +156,7 @@ margin-bottom: -12.5%;
 }
 
 .top-bar, .top-bar ul {
-  background-color: #212121;
+  background-color: #070707;
   font-family: "P22UndergroundPro-Heavy";
   font-size: 1.3rem;
   padding-bottom: 0;
@@ -303,7 +303,7 @@ margin-bottom: -12.5%;
 }
 
 footer {
-  background-color: #212121;
+  background-color: #070707;
 }
 
 
@@ -351,5 +351,33 @@ svg:hover #logo {
   transition-timing-function: ease-in-out;
   -webkit-transition: 200ms;
   -webkit-transition-timing-function: ease-in-out;
+}
+
+.card img {
+  filter: grayscale(0);
+}
+
+.card img:hover {
+  filter: grayscale(1);
+}
+
+.card-image p {
+  height: 0;
+  margin: 0;
+  text-align: center;
+  color: #FF0022;
+  position: relative;
+  top: 5rem;
+  font-size: 1.5rem;
+  z-index: 2;
+}
+
+.accordion-title {
+  font-size: 1.3rem;
+  color: #3454D1;
+}
+
+.accordion-content {
+
 }
 
