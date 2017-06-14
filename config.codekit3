@@ -120,6 +120,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/arara.png": {
+		"ft": 32768,
+		"iS": 4131201,
+		"oA": 0,
+		"oAP": "\/assets\/img\/arara.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/bentley.jpg": {
 		"ft": 16384,
 		"iS": 113542,
@@ -130,6 +141,22 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/bg.jpg": {
+		"ft": 16384,
+		"iS": 2000398,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/bobo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/img\/bobo.html",
+		"oF": 0
+		},
 	"\/assets\/img\/bobo.jpg": {
 		"ft": 16384,
 		"iS": 283763,
@@ -138,6 +165,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/bosca.png": {
+		"ft": 32768,
+		"iS": 5223223,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bosca.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/img\/bus.jpg": {
@@ -289,7 +327,40 @@
 		"oAP": "\/assets\/img\/fixjam.jpg",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/img\/flowers.png": {
+		"ft": 32768,
+		"iS": 3895382,
+		"oA": 0,
+		"oAP": "\/assets\/img\/flowers.png",
+		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/goldenhill.png": {
+		"ft": 32768,
+		"iS": 15243129,
+		"oA": 0,
+		"oAP": "\/assets\/img\/goldenhill.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/hemp.png": {
+		"ft": 32768,
+		"iS": 9383077,
+		"oA": 0,
+		"oAP": "\/assets\/img\/hemp.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/img\/instagram.svg": {
@@ -313,11 +384,32 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/jane.png": {
+		"ft": 32768,
+		"iS": 6082272,
+		"oA": 0,
+		"oAP": "\/assets\/img\/jane.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/john.jpg": {
 		"ft": 16384,
 		"iS": 26509,
 		"oA": 0,
 		"oAP": "\/assets\/img\/john.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/john2.JPG": {
+		"ft": 16384,
+		"iS": 5231617,
+		"oA": 0,
+		"oAP": "\/assets\/img\/john2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -341,6 +433,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/kt.jpg": {
+		"ft": 16384,
+		"iS": 8900569,
+		"oA": 0,
+		"oAP": "\/assets\/img\/kt.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/lewis.jpg": {
@@ -381,6 +483,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/loah2.jpg": {
+		"ft": 16384,
+		"iS": 87440,
+		"oA": 0,
+		"oAP": "\/assets\/img\/loah2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/logo-white-01.svg": {
@@ -470,7 +582,7 @@
 		"oAP": "\/assets\/img\/scott.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/silly.jpg": {
@@ -478,6 +590,26 @@
 		"iS": 160281,
 		"oA": 0,
 		"oAP": "\/assets\/img\/silly.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/silly2.jpeg": {
+		"ft": 16384,
+		"iS": 325396,
+		"oA": 0,
+		"oAP": "\/assets\/img\/silly2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/img\/silly2.jpg": {
+		"ft": 16384,
+		"iS": 1121943,
+		"oA": 0,
+		"oAP": "\/assets\/img\/silly2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -515,7 +647,7 @@
 		},
 	"\/assets\/img\/staxx.jpg": {
 		"ft": 16384,
-		"iS": 36245,
+		"iS": 301423,
 		"oA": 0,
 		"oAP": "\/assets\/img\/staxx.jpg",
 		"oF": 0,
@@ -523,9 +655,19 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/t-woc.jpg": {
+		"ft": 16384,
+		"iS": 257930,
+		"oA": 0,
+		"oAP": "\/assets\/img\/t-woc.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/assets\/img\/tgp.jpg": {
 		"ft": 16384,
-		"iS": 87005,
+		"iS": 621486,
 		"oA": 0,
 		"oAP": "\/assets\/img\/tgp.jpg",
 		"oF": 0,
@@ -560,7 +702,7 @@
 		"oAP": "\/assets\/img\/twoc.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/worries.jpg": {
@@ -570,7 +712,7 @@
 		"oAP": "\/assets\/img\/worries.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/yoga.jpg": {
@@ -581,6 +723,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/zeenie.png": {
+		"ft": 32768,
+		"iS": 8547528,
+		"oA": 0,
+		"oAP": "\/assets\/img\/zeenie.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/video\/Simma-Down-2017.mov": {

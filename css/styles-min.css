@@ -1,6 +1,20 @@
+/* -----------------------------------------------------------------------* SIMMA DOWN
+
+ Frankie Grimes
+
+\* -----------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------* COLOURS
+\* -----------------------------------------------------------------------*/
 /*
-  Body
+  Blue/Teal: #19f6e8;
+  Yellow: #FFCC33;
+  Red: #FF3333
+  Dark blue: #1E3888;
+  Green: #33CC99;
+
 */
+/* -----------------------------------------------------------------------* FONT DECLARATIONS
+\* -----------------------------------------------------------------------*/
 @font-face {
   font-family: 'P22UndergroundPro-Heavy';
   src: url("../assets/fonts/P22UndergroundPro-Heavy.eot") format("eot"), url("../assets/fonts/P22UndergroundPro-Heavy.woff") format("woff"), url("../assets/fonts/P22UndergroundPro-Heavy.ttf") format("truetype"), url("../assets/fonts/P22UndergroundPro-Heavy.svg") format("svg");
@@ -15,6 +29,8 @@
   font-weight: normal;
   font-style: normal; }
 
+/* -----------------------------------------------------------------------* BODY FONT STYLES
+\* -----------------------------------------------------------------------*/
 body {
   font-family: "P22UndergroundPro-Book"; }
 
@@ -24,15 +40,11 @@ h1 {
   padding-top: 2rem; }
 
 p {
-  font-family: "P22UndergroundPro-Book"; }
+  font-family: "P22UndergroundPro-Book";
+  font-size: 1.1rem; }
 
-/*
-  Fullscreen Video
-   - Foundation 6 styles are embedded in the head of this doc
-   - said Foundation 6 styles are completely unecessary for this to work
-   - internet explorer (and it's lack of 'object-fit') essentially
-     turns this from 6 lines of CSS into the monster below .. typical.
-*/
+/* -----------------------------------------------------------------------* LANDING PAGE VIDEO
+\* -----------------------------------------------------------------------*/
 .video-container {
   position: relative;
   z-index: 0; }
@@ -53,21 +65,7 @@ p {
     position: absolute;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    /* 
-      the rules below are a replacement for 'object-fit'
-      which is unavailable in all versions of IE
-      .. the ':not' is to cover devices which arbitrarily
-      update VH on scroll - see the JS
-    */ }
-    @media (max-aspect-ratio: 1280 / 720) {
-      .video-container:not(.fixed-device) .flex-video video {
-        width: calc(100vh*1280/720);
-        height: 100vh; } }
-    @media (min-aspect-ratio: 1280 / 720) {
-      .video-container:not(.fixed-device) .flex-video video {
-        width: 100vw;
-        height: calc(100vw*720/1280); } }
+            transform: translate(-50%, -50%); }
 
 .landing-video {
   height: auto !important; }
@@ -76,69 +74,11 @@ p {
   display: none !important;
   -webkit-appearance: none; }
 
-/*
-  Dummy Content
-*/
-.dummy-container-class {
-  padding: 0; }
-  .dummy-container-class .flex-video {
-    margin-bottom: 0; }
-  .dummy-container-class .row {
-    margin: 1em auto;
-    padding: 1em; }
-  .dummy-container-class .columns {
-    overflow: hidden; }
-  .dummy-container-class h1, .dummy-container-class h2, .dummy-container-class h3, .dummy-container-class p {
-    font-family: sans-serif;
-    font-weight: 200;
-    text-align: center;
-    padding: 0.5em 1em;
-    margin: 0 -1em; }
-  .dummy-container-class.video-container .row {
-    color: white;
-    background: rgba(0, 0, 0, 0.5); }
-  .dummy-container-class.video-container:last-of-type .row {
-    position: absolute;
-    bottom: 1em; }
-
 .responsive-embed, .flex-video {
-  margin-bottom: -12.5%; }
+  margin-bottom: -15%; }
 
-/*
-  Navigation
-
-
-*/
-.top-bar {
-  padding: 1rem; }
-
-.top-bar, .top-bar ul {
-  background-color: #070707;
-  font-family: "P22UndergroundPro-Heavy";
-  font-size: 1.3rem;
-  padding-bottom: 0;
-  line-height: 1.3rem; }
-
-.top-bar a {
-  color: #fff; }
-
-.top-bar a:hover {
-  color: #19f6e8; }
-
-.top-bar svg {
-  margin-top: 0.2rem; }
-
-/*
- Artists
-*/
-.card h4 {
-  text-align: center;
-  font-family: "P22UndergroundPro-Heavy";
-  text-transform: uppercase; }
-
-/*
- Landing Text
-*/
+/* -----------------------------------------------------------------------* LANDING PAGE CALLOUT TEXT
+\* -----------------------------------------------------------------------*/
 .landing-text {
   position: absolute;
   top: 35%;
@@ -151,31 +91,22 @@ p {
   color: white; }
 
 .landing-text h1 {
-  font-size: 3rem;
+  font-size: 2.3rem;
   padding: 2rem;
-  line-height: 3rem; }
+  line-height: 2rem; }
 
-@media screen and (min-width: 40.064em) {
-  .landing-text h1 {
-    font-size: 8rem;
-    line-height: 8rem; }
-  .landing-text-box {
-    color: #fff;
-    font-family: 'P22UndergroundPro-Book';
-    font-size: 2rem;
-    padding: 1rem;
-    letter-spacing: 8px;
-    line-height: 25px;
-    position: relative;
-    top: -4rem;
-    text-align: center; } }
+.landing-text-box span {
+  font-size: 0.8rem; }
 
 .landing-text h2 {
-  font-size: 2.3rem;
+  font-size: 2rem;
   text-align: center;
   padding: 0.5rem;
   border: 1px solid white;
   font-family: 'P22UndergroundPro-Book'; }
+
+.landing-text a {
+  color: white; }
 
 .svg-wrapper {
   height: 60px;
@@ -204,6 +135,22 @@ p {
   top: -4rem;
   text-align: center; }
 
+@media screen and (min-width: 40.064em) {
+  .landing-text h1 {
+    font-size: 8rem;
+    line-height: 8rem; }
+  .landing-text-box span {
+    font-size: 1.3rem; }
+  .landing-text-box {
+    color: #fff;
+    font-family: 'P22UndergroundPro-Book';
+    font-size: 2rem;
+    letter-spacing: 8px;
+    line-height: 25px;
+    position: relative;
+    top: -4rem;
+    text-align: center; } }
+
 @-webkit-keyframes draw {
   0% {
     stroke-dasharray: 140 540;
@@ -228,25 +175,188 @@ p {
   -webkit-animation: 0.5s draw linear forwards;
   animation: 0.5s draw linear forwards; }
 
-.landing-text a {
-  color: white; }
-
 .landing-text h2:hover {
   background-color: rgba(255, 255, 255, 0.2); }
 
+/* -----------------------------------------------------------------------* NAVIGATION
+\* -----------------------------------------------------------------------*/
+.top-bar {
+  padding: 1rem; }
+
+.top-bar, .top-bar ul {
+  background-color: #070707;
+  font-family: "P22UndergroundPro-Heavy";
+  font-size: 1.1rem;
+  padding-bottom: 0;
+  line-height: 1.3rem; }
+
+.top-bar a {
+  color: #fff; }
+
+.top-bar a:hover {
+  color: #19f6e8; }
+
+.top-bar svg {
+  margin-top: 0.2rem; }
+
+/* -----------------------------------------------------------------------*  ARTISTS/WORKSHOPS/TRADERS HOVER CARD GRID
+\* -----------------------------------------------------------------------*/
+.card h4 {
+  text-align: center;
+  font-family: "P22UndergroundPro-Heavy";
+  text-transform: uppercase; }
+
+.card-image p {
+  height: 0;
+  margin: 0;
+  text-align: center;
+  color: #FF0022;
+  position: relative;
+  top: 5rem;
+  font-size: 1.5rem;
+  z-index: 2; }
+
+.view {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default; }
+
+.view .mask, .view .content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0; }
+
+.view img {
+  display: block;
+  position: relative; }
+
+.view h4 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  padding: 1rem;
+  padding-top: 3rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
+
+.view span {
+  border-bottom: 0.2rem solid white;
+  padding-bottom: 0.2rem; }
+
+.view p {
+  font-size: 0.8rem;
+  padding: 1rem;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
+
+.view-first img {
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear; }
+
+.view-first .mask {
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
+
+.view-first h2 {
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px);
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+
+.view-first p {
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+  opacity: 0;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear; }
+
+.view-first a.info {
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+
+.view-first:hover img {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1); }
+
+.view-first:hover .mask {
+  opacity: 1; }
+
+.view-first:hover h2,
+.view-first:hover p,
+.view-first:hover a.info {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px); }
+
+.view-first:hover p {
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s; }
+
+.view-first:hover a.info {
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s; }
+
+.orange {
+  background-color: rgba(254, 191, 0, 0.8); }
+
+.blue {
+  background-color: rgba(25, 246, 232, 0.7); }
+
+.red {
+  background-color: rgba(255, 51, 51, 0.7); }
+
+.dark-blue {
+  background-color: rgba(30, 56, 136, 0.7); }
+
+.green {
+  background-color: rgba(51, 204, 153, 0.7); }
+
+.purple {
+  background-color: rgba(77, 19, 127, 0.7); }
+
+/* -----------------------------------------------------------------------*  MAIN CONTENT
+\* -----------------------------------------------------------------------*/
 .main-content {
   padding: 0rem;
   padding-bottom: 7rem; }
 
+blockquote {
+  padding: 1.3rem;
+  font-size: 1.3rem; }
+
+cite {
+  font-size: 1rem; }
+
+/* -----------------------------------------------------------------------*  FAQ ACCORDION
+\* -----------------------------------------------------------------------*/
+.accordion-title {
+  font-size: 1.3rem;
+  color: #1E3888; }
+
+/* -----------------------------------------------------------------------*  FOOTER
+\* -----------------------------------------------------------------------*/
 footer {
   background-color: #070707; }
 
 footer p {
   color: white;
   font-family: 'P22UndergroundPro-Book';
-  padding: 2rem 0rem;
   text-align: center;
-  font-size: 0.5rem; }
+  font-size: 0.5rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem; }
 
 .footer-light {
   background-color: #474747;
@@ -261,7 +371,7 @@ footer p {
 
 footer svg:hover #facebook, footer svg:hover #twitter,
 footer svg:hover #instagram {
-  fill: #111; }
+  fill: #555555; }
 
 footer a svg #facebook, footer a svg #twitter,
 footer a svg #instagram {
@@ -279,24 +389,17 @@ svg:hover #logo {
   -webkit-transition: 200ms;
   -webkit-transition-timing-function: ease-in-out; }
 
-.card img {
-  -webkit-filter: grayscale(0);
-          filter: grayscale(0); }
+.footer-menu {
+  background-color: #313131;
+  padding: 0.5rem; }
 
-.card img:hover {
-  -webkit-filter: grayscale(1);
-          filter: grayscale(1); }
+.footer-menu a {
+  color: #fff;
+  font-size: 0.7rem; }
 
-.card-image p {
-  height: 0;
-  margin: 0;
-  text-align: center;
-  color: #FF0022;
-  position: relative;
-  top: 5rem;
-  font-size: 1.5rem;
-  z-index: 2; }
+.footer-menu a:hover {
+  color: #d5d5d5; }
 
-.accordion-title {
-  font-size: 1.3rem;
-  color: #3454D1; }
+.footer-menu ul {
+  line-height: 0.5rem;
+  text-align: center; }
