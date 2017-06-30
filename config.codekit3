@@ -7,7 +7,7 @@
 		"uuidString": "55561DDF-95BD-40F5-B9BB-D71A08B53E78"
 		}
 	],
-"creatorBuild": "25813",
+"creatorBuild": "25849",
 "files": {
 	"\/.bowerrc": {
 		"ft": 8192,
@@ -110,11 +110,11 @@
 		"oAP": "\/assets\/fonts\/P22UndergroundPro-Heavy.woff",
 		"oF": 0
 		},
-	"\/assets\/img\/african.jpg": {
+	"\/assets\/img\/accom.jpg": {
 		"ft": 16384,
-		"iS": 118472,
+		"iS": 94270,
 		"oA": 0,
-		"oAP": "\/assets\/img\/african.jpg",
+		"oAP": "\/assets\/img\/accom.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -172,6 +172,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/bus-times.png": {
+		"ft": 32768,
+		"iS": 2088432,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bus-times.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/cianfinn.jpg": {
 		"ft": 16384,
 		"iS": 53461,
@@ -192,6 +203,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/Cover_no_text.jpg": {
+		"ft": 16384,
+		"iS": 971087,
+		"oA": 0,
+		"oAP": "\/assets\/img\/Cover_no_text.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/Cover_no_text.png": {
 		"ft": 32768,
 		"iS": 13740400,
@@ -200,6 +221,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/dabble.png": {
+		"ft": 32768,
+		"iS": 89876,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dabble.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -223,6 +255,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/assets\/img\/dillbridge.jpg": {
+		"ft": 16384,
+		"iS": 142574,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dillbridge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/assets\/img\/disco.jpg": {
 		"ft": 16384,
 		"iS": 107913,
@@ -241,6 +283,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/facebook-og.jpg": {
+		"ft": 16384,
+		"iS": 2000398,
+		"oA": 0,
+		"oAP": "\/assets\/img\/facebook-og.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/fehdah.jpg": {
@@ -295,6 +347,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/greg.jpg": {
+		"ft": 16384,
+		"iS": 299223,
+		"oA": 0,
+		"oAP": "\/assets\/img\/greg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/assets\/img\/hemp.png": {
 		"ft": 32768,
 		"iS": 9383077,
@@ -317,6 +379,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/jabba.jpg": {
+		"ft": 16384,
+		"iS": 30460,
+		"oA": 0,
+		"oAP": "\/assets\/img\/jabba.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/assets\/img\/jane.png": {
 		"ft": 32768,
 		"iS": 6082272,
@@ -336,6 +408,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/johnny.jpg": {
+		"ft": 16384,
+		"iS": 13762,
+		"oA": 0,
+		"oAP": "\/assets\/img\/johnny.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/juice.jpg": {
@@ -400,12 +482,12 @@
 		},
 	"\/assets\/img\/morro.jpg": {
 		"ft": 16384,
-		"iS": 134183,
+		"iS": 68487,
 		"oA": 0,
 		"oAP": "\/assets\/img\/morro.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/niwel.jpg": {
@@ -416,6 +498,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/paul.png": {
+		"ft": 32768,
+		"iS": 716409,
+		"oA": 0,
+		"oAP": "\/assets\/img\/paul.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/img\/queen.jpg": {
@@ -460,7 +553,7 @@
 		},
 	"\/assets\/img\/simma.jpg": {
 		"ft": 16384,
-		"iS": 234604,
+		"iS": 161244,
 		"oA": 0,
 		"oAP": "\/assets\/img\/simma.jpg",
 		"oF": 0,
@@ -498,6 +591,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/tom.jpg": {
+		"ft": 16384,
+		"iS": 172287,
+		"oA": 0,
+		"oAP": "\/assets\/img\/tom.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/assets\/img\/turbante.jpg": {
 		"ft": 16384,
 		"iS": 1774877,
@@ -518,14 +621,15 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/assets\/img\/yoga.jpg": {
-		"ft": 16384,
-		"iS": 431008,
+	"\/assets\/img\/yoga.png": {
+		"ft": 32768,
+		"iS": 1258775,
 		"oA": 0,
-		"oAP": "\/assets\/img\/yoga.jpg",
+		"oAP": "\/assets\/img\/yoga.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/img\/zeenie.png": {
@@ -6573,6 +6677,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",

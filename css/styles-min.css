@@ -197,7 +197,8 @@ flex-video {
   color: #19f6e8; }
 
 .top-bar svg {
-  margin-top: 0.2rem; }
+  margin-top: 0.2rem;
+  height: 2rem; }
 
 /* -----------------------------------------------------------------------*  ARTISTS/WORKSHOPS/TRADERS HOVER CARD GRID
 \* -----------------------------------------------------------------------*/
@@ -368,6 +369,10 @@ footer p {
 
 .footer-light img {
   padding: 1rem; }
+
+footer svg {
+  height: 4rem;
+  width: 4rem; }
 
 footer svg:hover #facebook, footer svg:hover #twitter,
 footer svg:hover #instagram {

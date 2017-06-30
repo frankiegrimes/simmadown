@@ -253,6 +253,7 @@ flex-video {
 
 .top-bar svg {
   margin-top: 0.2rem;
+  height: 2rem;
 }
 
 
@@ -452,6 +453,11 @@ footer p {
 
 .footer-light img {
   padding: 1rem;
+}
+
+footer svg {
+  height: 4rem;
+  width: 4rem;
 }
 
 footer svg:hover #facebook, footer svg:hover #twitter,
